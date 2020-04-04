@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nome = 'Iury';
+  adicionado = false;
+
+  /*adicionar(nome : string) {
+    this.nome = nome
+  }*/
+
+  adicionar() {
+    this.adicionado = true;
+  }
 }
